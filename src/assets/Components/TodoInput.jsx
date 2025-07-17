@@ -1,3 +1,4 @@
+// components/TodoInput.jsx
 import React, { useState } from "react";
 
 const TodoInput = ({ onAdd }) => {
@@ -11,7 +12,7 @@ const TodoInput = ({ onAdd }) => {
   };
 
   return (
-    <div className="flex gap-2 mb-4">
+    <div className="flex gap-2 mb-4 w-full">
       <input
         type="text"
         value={task}
